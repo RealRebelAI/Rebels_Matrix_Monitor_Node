@@ -2,9 +2,9 @@
 A simple node to keep tabs on your workflow while keeping your command prompt minimized and out of your workspace. 
 
 
-'''
+
 git clone https://github.com/RealRebelAI/Rebels_Matrix_Monitor_Node.git
-'''
+
 
 when you search your nodes to add it to the workflow it will be called:
 
