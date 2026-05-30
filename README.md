@@ -1,19 +1,27 @@
-# Rebels_Matrix_Monitor_Node
-A simple node to keep tabs on your workflow while keeping your command prompt minimized and out of your workspace. 
+Matrix Monitor Node for ComfyUI
+A lightweight utility node designed to display your current workflow step count directly within the ComfyUI interface.
 
+By surfacing real-time processing data, this node eliminates the need to keep your terminal/command prompt active on your screen—simply minimize it and stay focused on your workspace.
 
+Installation
+Navigate to your ComfyUI/custom_nodes/ directory.
 
+Clone the repository:
+
+Bash
 git clone https://github.com/RealRebelAI/Rebels_Matrix_Monitor_Node.git
+3. Restart ComfyUI.
 
+### Usage
 
-when you search your nodes to add it to the workflow it will be called:
+* **Node Name:** `Matrix_Monitor`
+* **Workflow Integration:** This node can be placed anywhere within your node graph. It functions independently of your primary workflow logic, providing a persistent view of your progress without interrupting your data flow.
 
-'Matrix_Monitor'
+> **Note:** The terminal must remain running for this node to function. Please do not close your command prompt window; simply minimize it.
 
+### Troubleshooting & Updates
 
-a simple node for viewing step count in your workflow. removes the need to keep your command prompt in view at all times! (still requires the command prompt to be open so dont close it, just minimize it lol)
-
-can be strung anywhere or just place it in the workflow and it will work either way. very basic but it works well and helps alot.
-
-
-NOTE: this node MAY affect updating comfyui on future updates, for whatever reason this can be an issue when using custom nodes. if it causes issues, just move this folder to your desktop and update comfy, then place it back in your custom nodes folder after the update is complete.
+If you encounter issues while updating ComfyUI, please follow these steps:
+1. Temporarily move the `Rebels_Matrix_Monitor_Node` folder out of your `custom_nodes` directory (e.g., move it to your desktop).
+2. Perform your ComfyUI update.
+3. Move the folder back into your `custom_nodes` directory.
