@@ -8,9 +8,7 @@ Navigate to your ComfyUI/custom_nodes/ directory.
 
 Clone the repository:
 
-Bash
 git clone https://github.com/RealRebelAI/Rebels_Matrix_Monitor_Node.git
-3. Restart ComfyUI.
 
 ### Usage
 
