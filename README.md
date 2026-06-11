@@ -1,4 +1,6 @@
-🟢 Rebel's Matrix Monitor (v2.0)
+# Rebel's Matrix Monitor (v2.0)
+<img width="913" height="355" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/b47d6ba9-e3db-4bde-8d13-209cde297ef8" />
+
 A high-performance, hardware-accelerated terminal monitor and visualization node for ComfyUI.
 
 Tired of staring at a frozen ComfyUI UI while your terminal does all the heavy lifting in the background? Rebel's Matrix Monitor intercepts your server logs and streams them live directly onto your workflow canvas.
